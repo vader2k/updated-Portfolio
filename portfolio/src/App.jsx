@@ -1,19 +1,21 @@
-import {About, Contact, Hero, Navbar, Work, Writing, Footer} from './components'
-import Experience from './components/Experience'
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+import {Healthstarks, Hoobanks, Jericho, Podcast, Social} from './pages'
+import {Home} from './pages'
 
 const App = () => {
   return (
     <>
-      <div>
-        <Navbar/>
-        <Hero/>
-        <About/>
-        <Experience/>
-        <Work/>
-        <Writing/>
-        <Contact/>
-        <Footer/>
-      </div>
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Home/>} />
+          <Route path='health' element={<Healthstarks/>}/>
+          <Route path='hoobanks' element={<Hoobanks/>}/>
+          <Route path='jericho' element={<Jericho/>}/>
+          <Route path='podcast' element={<Podcast/>}/>
+          <Route path='social' element={<Social/>}/>
+        </Routes>
+      </BrowserRouter>
+
     </>
   )
 }
