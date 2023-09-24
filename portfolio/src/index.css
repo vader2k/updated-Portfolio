@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Aladin&family=Allura&family=Croissant+One&family=Expletus+Sans&family=Marck+Script&family=Mooli&family=Raleway:wght@500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    font-family: 'Raleway', sans-serif;
+    background-color: black;
+    color: white;
+}
+h1{
+    font-family: 'Expletus Sans', cursive;
+    font-size: 2.5rem;
+    word-spacing: 1px;
+    letter-spacing: -4px;
+}
+h3{
+    font-family: 'Expletus Sans', cursive;
+    font-size: 1.5rem;
+}
+.date{
+    font-size: 4rem;
+    font-weight: 900;
+    font-family: 'Raleway', sans-serif;
+}
+
+.work-img{
+    transition: 500ms ease;
+}
+.img-container:hover .color{
+    opacity: 0;
+}
