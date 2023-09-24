@@ -28,7 +28,10 @@ const Hoobanks = () => {
     <div className='mt-32 border-t border-golden py-3 w-[90%] m-auto absolute bottom-[20px]'>
       <div className='flex flex-col gap-5'>
         <p>Frontend Development</p>
-        <button className='flex items-center gap-5'>see case <BsArrowUpRight className='text-golden'/> </button>
+        <a href="https://hugoo-bank-app.vercel.app">
+          <button className='flex items-center gap-5'>see case <BsArrowUpRight className='text-golden'/> </button>
+        </a>
+        
       </div>
     </div>
   </div>
