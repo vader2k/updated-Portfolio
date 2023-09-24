@@ -1,12 +1,12 @@
 import React from 'react'
-import{GiSpikes} from 'react-icons/gi'
+import {GiSevenPointedStar} from 'react-icons/gi'
 import {BsArrowUpRight} from 'react-icons/bs'
 
 const Contact = () => {
   return (
-    <div className='py-16 px-3'>
+    <div className='py-16 px-3' id='contacts'>
         <div className='relative'>
-          <GiSpikes className='text-[2rem] text-golden absolute top-[30px] left-[300px]'/>
+          <GiSevenPointedStar className='text-[2rem] text-golden absolute top-[30px] left-[300px] star'/>
         <h1 className='px-3 max-w-[400px] leading-[3rem] '>I AM HONORED TO <br></br> WORK WITH <br></br> SPECIAL PEOPLE</h1>
       </div>
 

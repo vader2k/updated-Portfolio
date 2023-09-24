@@ -1,5 +1,5 @@
 import React from 'react'
-import{GiSpikes} from 'react-icons/gi'
+import {GiSevenPointedStar} from 'react-icons/gi'
 import health from '../assets/health.png'
 import bank from '../assets/hoobank.png'
 import jericho from '../assets/jericho.png'
@@ -11,11 +11,12 @@ import { Link, Navigate } from 'react-router-dom'
 const Work = () => {
   const nagivation = Navigate
   return (
-    <div className='px-3 py-10'>
-      <div className='relative'>
-        <GiSpikes className='text-[2rem] text-golden absolute top-[-8px] left-[-5px]'/>
-        <h3 className='px-3'>Selected cases</h3>
-      </div>
+    <div className='px-3 py-10' id='works'>
+          <div className='flex items-center'>
+        <GiSevenPointedStar className='text-[2rem] text-golden star'/>
+        <h3 className='px-1'>Works</h3>
+        </div>
+
 
       <div className='flex flex-col gap-3 w-[85%] m-auto py-5'>
         <Link to='health'>

@@ -1,4 +1,4 @@
-import{GiSpikes} from 'react-icons/gi'
+import {GiSevenPointedStar} from 'react-icons/gi'
 import DateTimeDisplay from '../hooks/DateTimeDisplay'
 
 const Hero = () => {
@@ -6,14 +6,14 @@ const Hero = () => {
     <div className="py-32 px-3 h-[100vh] ">
       <div className='flex ml-48 relative z-20'>
         <div className='absolute left-[-18px] top-[8px]'>
-          <GiSpikes className='text-[2rem] text-golden '/>
+          <GiSevenPointedStar className='text-[2rem] text-golden star '/>
         </div>
       <div>
         <DateTimeDisplay/>
       </div>
       </div>
       <div className="leading-[1.7rem]">
-        <p className="font-Abril text-golden">Creative</p>
+        <p className="font-Abril text-golden py-3">Creative</p>
         <h1>DESIGNER <span className="text-[1rem] text-golden">&</span></h1>
         <h1>DEVELOPER</h1>
       </div>

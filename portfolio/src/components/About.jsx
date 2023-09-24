@@ -5,7 +5,7 @@ import {BiRightArrow} from 'react-icons/bi'
 
 const About = () => {
   return (
-    <div className='px-3'>
+    <div className='px-3' id='about'>
       <h1 className='text-[2rem] flex justify-end pr-5'>HELLO. I AM DANIEL</h1>
       <p className='flex justify-end font-Abril text-golden pr-5 pb-5'>Odukwe Daniel</p>
       <p className='flex justify-end pl-10 pr-5 text-left'>
