@@ -12,10 +12,10 @@ const Contact = () => {
 
       <p className='flex justify-center py-10'>My inbox is always open for any opportunity</p>
 
-      <form className='w-[80%] m-auto flex flex-col gap-5'>
-        <input className='w-[100%] bg-transparent outline-none border-b border-golden p-3' type='text' placeholder='Enter your name'></input>
-        <input className='w-[100%] bg-transparent outline-none border-b border-golden p-3' type='email' placeholder='Enter your email address'></input>
-        <textarea className='bg-transparent border-b border-golden p-3 h-[150px]' placeholder='Hi, i think we need a design system for our product at company X, how soon can you hop on to discuss this?'>
+      <form className='w-[80%] m-auto flex flex-col gap-5'action="https://formsubmit.co/kingdanny295@email.com" method="POST" >
+        <input name='name' className='w-[100%] bg-transparent outline-none border-b border-golden p-3' type='text' placeholder='Enter your name'></input>
+        <input name='email' className='w-[100%] bg-transparent outline-none border-b border-golden p-3' type='email' placeholder='Enter your email address'></input>
+        <textarea name='texts' className='bg-transparent border-b border-golden p-3 h-[150px]' placeholder='Hi, i think we need a design system for our product at company X, how soon can you hop on to discuss this?'>
 
         </textarea>
 

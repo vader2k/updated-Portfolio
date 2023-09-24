@@ -26,7 +26,10 @@ const Navbar = () => {
               </li>
             ))
           }
+          <a href="https://docs.google.com/document/d/1u77out_Srn5qkwXgBo-l66618edQwWEJ2LO381OpwqE/edit">
           <button className='text-[16px] border border-golden p-3'>Resume</button>
+          </a>
+          
         </div>
     </div>
 
@@ -54,7 +57,10 @@ const Navbar = () => {
                   </a>
                 </li>
               ))}
-               <button className='text-[16px] border border-golden p-5 text-golden mt-20'>Resume</button>
+              <a href="https://docs.google.com/document/d/1u77out_Srn5qkwXgBo-l66618edQwWEJ2LO381OpwqE/edit">
+                <button className='text-[16px] border border-golden p-5 text-golden mt-20'>Resume</button>
+              </a>
+              
             </ul>
           </div>
           </div>

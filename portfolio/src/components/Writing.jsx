@@ -15,7 +15,9 @@ const Writing = () => {
                 <div><img src={article} className='w-[80px]'/></div>
                 <div>
                     <p className='text-[13px] text-gray-400'>2023</p>
+                    <a href="https://www.showwcase.com/show/34387/understanding-keyboard-events-in-javascript">
                     <p className='hover:text-golden max-w-[200px]'>Understanding Keyboard Events In JavaScript </p>
+                    </a>
                 </div>
             </div>
 
@@ -23,7 +25,9 @@ const Writing = () => {
                 <div><img src={article} className='w-[80px]'/></div>
                 <div>
                     <p className='text-[13px] text-gray-400'>2023</p>
-                    <p className='hover:text-golden max-w-[200px]'>How To Manipulate Arrays Using Array Methods in JavaScript  </p>
+                    <a href="https://kingvader.hashnode.dev/how-to-manipulate-arrays-using-array-methods-in-javascript">
+                    <p className='hover:text-golden max-w-[200px]'>How To Manipulate Arrays Using Array Methods in JavaScript  </p> 
+                    </a>
                 </div>
             </div>
 
@@ -31,7 +35,9 @@ const Writing = () => {
                 <div><img src={article} className='w-[80px]'/></div>
                 <div>
                     <p className='text-[13px] text-gray-400'>2023</p>
+                    <a href="https://www.showwcase.com/show/34525/understanding-loops-in-javascript">
                     <p className='hover:text-golden max-w-[200px]'>Understanding Loops In JavaScript</p>
+                    </a>
                 </div>
             </div>
         </div>
