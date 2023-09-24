@@ -31,6 +31,19 @@ h3{
 .img-container:hover .color{
     opacity: 0;
 }
+.nav-items{
+    transition: 500ms ease;
+    animation: fade 2s ease-in-out;
+}
+
+@keyframes fade {
+    0%{
+        transform: translateX(300px);
+    }
+    100%{
+        transform: translateX(0px);
+    }
+}
 
 .star{
     animation: rotate 5s linear infinite;

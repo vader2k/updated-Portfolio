@@ -48,7 +48,7 @@ const Navbar = () => {
               toggle? <AiOutlineClose className='text-golden text-[2.5rem] duration-100 ' onClick={()=> setToggle((prev)=>(!prev))}/> : <HiMiniBars3BottomLeft className='text-golden text-[2.5rem] duration-100' onClick={()=> setToggle((prev)=>(!prev))}/>
             }
 
-          <div className={`${toggle ? 'flex' : 'hidden'} bg-black absolute top- right-0  w-[75%] h-[100%] z-[100]`}>
+          <div className={`${toggle ? 'flex' : 'hidden'} bg-black absolute top- right-0  w-[75%] h-[100%] z-[100] nav-items`}>
             <ul className='list-none text-center py-36 px-24 '>
               {navbar.map((nav, index) =>(
                 <li key={nav.id} className={`cursor-pointer text-[20px]  ${index === navbar.length -1 ?'mb-0':'mb-16'} text-white`} onClick={()=> setToggle((prev)=>(!prev))}>
