@@ -57,7 +57,7 @@ const Work = () => {
 
 
 
-      <div className='flex flex-col gap-3 w-[85%] m-auto py-5 '>
+      <div className='sm:flex flex-col gap-3 w-[85%] m-auto py-5 hidden '>
         <div className='flex justify-between gap-3 items-center'>
           <div className='flex-1'> 
           <p className='text-[2rem] font-Abril'>HEALTHSTARKS</p>

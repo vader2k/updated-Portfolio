@@ -19,7 +19,7 @@ const Podcast = () => {
     <div className='mt-3'>
       <img src={podcast}/>
     </div>
-    <div className='mt-20'>
+    <div className='mt-10'>
       <p className='text-[1.5rem]'>Tools</p>
       <p className='text-gray-400'>
         React , Tailwind css, Github, 
