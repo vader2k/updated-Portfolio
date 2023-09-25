@@ -13,13 +13,13 @@ const Podcast = () => {
     <h1>
       Great Music Great Talks
     </h1>
-    <p className='py-5 text-[13px]'>
+    <p className='py-3 text-[13px]'>
     Welcome to Great music great talks, where the world of audio storytelling comes to life. We are a passionate community of podcast enthusiasts and creators dedicated to amplifying voices, sharing stories, and fostering connections through the power of sound.
     </p>
     <div className='mt-3'>
       <img src={podcast}/>
     </div>
-    <div className='mt-10'>
+    <div className='mt-5'>
       <p className='text-[1.5rem]'>Tools</p>
       <p className='text-gray-400'>
         React , Tailwind css, Github, 
@@ -54,7 +54,7 @@ const Podcast = () => {
     </div></div>
     </div>
 
-    <div className='mt-5 w-[80%] m-auto'>
+    <div className='mt-20 w-[80%] m-auto'>
       <p className='text-[1.5rem]'>Tools</p>
       <p className='text-gray-400'>
         React , Tailwind css, Github, 
