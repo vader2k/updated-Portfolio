@@ -1,12 +1,11 @@
-import {GiSevenPointedStar} from 'react-icons/gi'
 import DateTimeDisplay from '../hooks/DateTimeDisplay'
-
+import star from '../assets/star.png'
 const Hero = () => {
   return (
     <div className="py-32 px-3 h-[100vh] ">
       <div className='flex ml-48 relative z-20'>
         <div className='absolute left-[-18px] top-[8px]'>
-          <GiSevenPointedStar className='text-[2rem] text-golden star '/>
+          <img src={star} className='w-[2rem] star'/>
         </div>
       <div>
         <DateTimeDisplay/>

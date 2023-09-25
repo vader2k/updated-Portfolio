@@ -5,7 +5,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        golden: "#EBEF95",
+        golden: "#f2dbc6",
       },
       fontFamily: {
         Raleway: ["Raleway", "sans-serif"],

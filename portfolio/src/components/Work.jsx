@@ -1,19 +1,18 @@
 import React from 'react'
-import {GiSevenPointedStar} from 'react-icons/gi'
 import health from '../assets/health.png'
 import bank from '../assets/hoobank.png'
 import jericho from '../assets/jericho.png'
 import podcast from '../assets/podcast.png'
 import social from '../assets/social.png'
 import { Link, Navigate } from 'react-router-dom'
-
+import star from '../assets/star.png'
 
 const Work = () => {
   const nagivation = Navigate
   return (
     <div className='px-3 py-10' id='works'>
           <div className='flex items-center'>
-        <GiSevenPointedStar className='text-[2rem] text-golden star'/>
+          <img src={star} className='w-[2rem] star'/>
         <h3 className='px-1'>Works</h3>
         </div>
 
