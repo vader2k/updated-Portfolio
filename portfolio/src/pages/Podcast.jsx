@@ -54,7 +54,7 @@ const Podcast = () => {
     </div></div>
     </div>
 
-    <div className='mt-20 w-[80%] m-auto'>
+    <div className='mt-5 w-[80%] m-auto'>
       <p className='text-[1.5rem]'>Tools</p>
       <p className='text-gray-400'>
         React , Tailwind css, Github, 
