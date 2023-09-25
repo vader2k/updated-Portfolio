@@ -10,23 +10,23 @@ const Footer = () => {
     <div className='py-10 px-3'>
         <div className='flex items-center justify-center gap-6 py-3'>
           <a href="https://github.com/vader2k">
-          <LuGithub className='text-[1.5rem] hover:text-golden'/> 
+          <LuGithub className='text-[1.rem] hover:text-golden'/> 
           </a>
           <a href="https://instagram.com/kvngn?igshid=OGQ5ZDc2ODK2ZA==">
-          <AiOutlineInstagram className='text-[1.5rem] hover:text-golden'/>
+          <AiOutlineInstagram className='text-[1.rem] hover:text-golden'/>
           </a>
           <a href="https://twitter.com/kingdanny295">
-          <FiTwitter className='text-[1.5rem] hover:text-golden'/>
+          <FiTwitter className='text-[1.rem] hover:text-golden'/>
           </a>
           <a href="https://linkedin.com/in/odukwe-daniel-09920a286">
-          <RiLinkedinLine className='text-[1.5rem] hover:text-golden'/> 
+          <RiLinkedinLine className='text-[1.rem] hover:text-golden'/> 
           </a>
           <a href="https://hashnode.com/@KingVader">
-          <FaHashnode className='text-[1.5rem] hover:text-golden'/>
+          <FaHashnode className='text-[1.rem] hover:text-golden'/>
           </a>
         
         </div>
-        <div className='py-3 text-center'>Designed & built by Odukwe daniel</div>
+        <div className='py-3 text-center text-[0.8rem] text-gray-400'>Designed & built by Odukwe daniel</div>
     </div>
   )
 }

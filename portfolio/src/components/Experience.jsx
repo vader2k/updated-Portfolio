@@ -4,7 +4,7 @@ import star from '../assets/star.png'
 
 const Experience = () => {
   return (
-    <div className='px-3 py-10' id='experience'>
+    <div className='px-3 py-28' id='experience'>
       <div>
         <div className='flex items-center'>
         <img src={star} className='w-[2rem] star'/>

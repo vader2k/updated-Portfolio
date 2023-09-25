@@ -1,5 +1,5 @@
 import React from 'react'
-import {About,Navbar, Contact, Hero, Work, Writing, Footer, Experince} from '../components'
+import {About,Navbar, Contact, Hero, Work, Writing, Footer,Tools, Experince} from '../components'
 
 
 const Home = () => {
@@ -9,6 +9,7 @@ const Home = () => {
         <Navbar/>
         <Hero/>
         <About/>
+        <Tools/>
         <Experince/>
         <Work/>
         <Writing/>

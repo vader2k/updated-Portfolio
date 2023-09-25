@@ -1,16 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Allura&family=Croissant+One&family=Expletus+Sans&family=Mooli&family=Raleway:wght@500&family=Vollkorn:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Allura&family=Cormorant+Garamond:wght@700&family=Croissant+One&family=Expletus+Sans&family=Mooli&family=Poppins&family=Raleway:wght@500&family=Roboto+Condensed:ital,wght@1,700&family=Vollkorn:ital@1&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body{
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Poppins', sans-serif;
     background-color: #131313;
     color: white;
 }
 h1{
-    font-family: 'Vollkorn', serif;
-    font-size: 2.5rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3.5rem;
     word-spacing: 5px;
     letter-spacing: -3px;
     font-weight: 900;
@@ -20,10 +20,16 @@ h3{
     font-size: 1.5rem;
 }
 .date{
-    font-size: 4rem;
-    font-weight: 800;
-    font-family: 'Raleway', sans-serif;
+    font-size: 5rem;
+    font-weight: 900;
+    font-family: 'Vollkorn', serif;
 }
+
+.line{
+    text-indent: 120px;
+    text-align: left;
+}
+
 
 .work-img{
     transition: 500ms ease;
