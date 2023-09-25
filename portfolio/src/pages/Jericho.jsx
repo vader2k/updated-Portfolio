@@ -6,7 +6,7 @@ import {BsArrowUpRight} from 'react-icons/bs'
 
 const Jericho = () => {
   return (
-    <div className='py-10 px-3 h-[100vh] relative'>
+    <div className='py-10 px-3 h-[100vh] relative works'>
     {<Link to='/'>
       <button><img src={back} className='w-[50px]'/></button>
     </Link>}
