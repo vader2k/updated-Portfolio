@@ -6,7 +6,7 @@ const Contact = () => {
     <div className='py-16 px-3' id='contacts'>
         <div className='relative'>
           <img src={star} className='w-[2rem] star  absolute top-[30px] left-[300px]'/>
-        <h1 className='px-3 max-w-[400px] leading-[3rem] '>I AM HONORED TO <br></br> WORK WITH <br></br> SPECIAL PEOPLE</h1>
+        <h1 className='px-3 max-w-[400px] leading-[3rem] sm:leading-[4rem] '>I AM HONORED TO <br></br> WORK WITH <br></br> SPECIAL PEOPLE</h1>
       </div>
 
       <p className='flex justify-center py-10'>My inbox is always open for any opportunity</p>

@@ -10,7 +10,7 @@ const Writing = () => {
             <h3 className='px-3'>Writing</h3>
         </div>
 
-        <div className='py-5 px-3 flex flex-col gap-5 '>
+        <div className='py-5 px-3 flex flex-col gap-5 md:flex-row'>
             <div className='flex items-center gap-4'>
                 <div><img src={article} className='w-[80px]'/></div>
                 <div>

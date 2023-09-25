@@ -22,9 +22,8 @@ h3{
 .date{
     font-size: 5rem;
     font-weight: 900;
-    font-family: 'Vollkorn', serif;
+    font-family: 'Cormorant Garamond', serif;
 }
-
 .line{
     text-indent: 120px;
     text-align: left;
@@ -73,4 +72,32 @@ h3{
 
 .wraper::-webkit-scrollbar{
     display: none;
+}
+
+@media screen and (min-width: 768px) {
+   h1{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 5.5rem;
+    word-spacing: 5px;
+    letter-spacing: -3px;
+    font-weight: 900;
+   }
+   h3{
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3.5rem;
+}
+}
+
+@media screen and (min-width: 900px){
+    .date{
+        font-size: 6rem;
+        font-weight: 900;
+        font-family: 'Vollkorn', serif;
+    }
+}
+
+@media screen and (min-width:1200px){
+    .pages{
+        display: block;
+    }
 }

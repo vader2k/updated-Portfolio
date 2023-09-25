@@ -18,22 +18,22 @@ const TabsComponent = () => {
                 <p className='text-[14px] text-gray-500'>March 2023 - present</p>
                 <div className='flex items-start justify-center gap-5 py-5'>
                     <BiRightArrow className='text-golden text-[1rem]'/>
-                    <p className='max-w-[300px]'>
+                    <p className='max-w-[300px] md:max-w-[1000px]'>
                     Worked along side creative directors to lead the research, development & architecture of tethral solutions to fulfil business requirements
                     </p>
                 </div>
 
                 <div className='flex items-start justify-center gap-5 py-5'>
                     <BiRightArrow className='text-golden text-[1rem]'/>
-                    <p className='max-w-[300px]'>
+                    <p className='max-w-[300px] md:max-w-[1000px]'>
                     collaborated with designers, product managers & other engineers to transform creative concepts into production realities for clients & stakeholders
                     </p>
                 </div>
 
                 <div className='flex items-start justify-center gap-5 py-5'>
                     <BiRightArrow className='text-golden text-[1rem]'/>
-                    <p className='max-w-[300px]'>
-                    Deliver high quality codes and mmanage companies social media activities
+                    <p className='max-w-[300px] md:max-w-[1000px]'>
+                    Deliver high quality codes and mmanage companies social media activities to create awareness and improve brand marketing.
                     </p>
                 </div>
             </div>
@@ -44,14 +44,14 @@ const TabsComponent = () => {
                 <p className='text-[14px] text-gray-500'>september 2023 - present</p>
                 <div className='flex items-start justify-center gap-5 py-5'>
                     <BiRightArrow className='text-golden text-[1rem]'/>
-                    <p className='max-w-[300px]'>
+                    <p className='max-w-[300px] md:max-w-[1000px]'>
                     Developed and styled interractive web componenets to meet company needs and satisfaction.
                     </p>
                 </div>
 
                 <div className='flex items-start justify-center gap-5 py-5'>
                     <BiRightArrow className='text-golden text-[1rem]'/>
-                    <p className='max-w-[300px]'>
+                    <p className='max-w-[300px] md:max-w-[1000px]'>
                     contributed to the development of companies webpage design and implementation.
                     </p>
                 </div>
@@ -63,14 +63,14 @@ const TabsComponent = () => {
                 <p className='text-[14px] text-gray-500'>september 2023 - present</p>
                 <div className='flex items-start justify-center gap-5 py-5'>
                     <BiRightArrow className='text-golden text-[1rem]'/>
-                    <p className='max-w-[300px]'>
+                    <p className='max-w-[300px] md:max-w-[1000px]'>
                     Responsible for product research at Baicart stores to improve quality of products and increase sales.
                     </p>
                 </div>
 
                 <div className='flex items-start justify-center gap-5 py-5'>
                     <BiRightArrow className='text-golden text-[1rem]'/>
-                    <p className='max-w-[300px]'>
+                    <p className='max-w-[300px] md:max-w-[1000px]'>
                     Buit and designed technical solutions according to the stakeholders business requirements.
                     </p>
                 </div>

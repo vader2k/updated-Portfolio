@@ -30,7 +30,7 @@ function DateTimeDisplay() {
         <div>
           <div className='date'>{getCurrentDay()}</div>
         </div>
-        <div className='flex flex-col leading-4 font-Abril font-thin text-[11px]'>
+        <div className='flex flex-col leading-4 font-Abril font-thin text-[11px] md:text-[20px]'>
           <div>{getCurrentMonth()}</div>
           <p>available <br></br>for work</p>
         </div>
