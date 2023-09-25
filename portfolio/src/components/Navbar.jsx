@@ -33,7 +33,7 @@ const Navbar = () => {
         </div>
     </div>
 
-    <div className='items-center justify-between py-5 px-5 h-[80px] sm:hidden flex bg-[#131313]  border-none sticky top-0'>
+    <div className='items-center justify-between py-5 px-5 h-[80px] sm:hidden flex bg-[#131313]  border-none sticky top-0 z-[999]'>
         <div className='relative cursor-pointer'>
           <div>
             <FiHexagon className='text-golden text-[3rem] '/>
