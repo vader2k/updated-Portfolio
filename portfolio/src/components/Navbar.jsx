@@ -7,7 +7,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false)
   return (
     <>
-      <div className='items-center justify-between py-5 px-5 h-[80px] sm:flex hidden bg-[#131313]'>
+      <div className='items-center justify-between py-5 px-5 h-[80px] sm:flex hidden bg-[#131313] sticky top-0 left-0 z-[99999]'>
         <div className='relative cursor-pointer'>
           <div>
             <FiHexagon className='text-golden text-[3rem] '/>
@@ -33,7 +33,7 @@ const Navbar = () => {
         </div>
     </div>
 
-    <div className='items-center justify-between py-5 px-5 h-[80px] sm:hidden flex bg-[#131313] border-none'>
+    <div className='items-center justify-between py-5 px-5 h-[80px] sm:hidden flex bg-[#131313]  border-none sticky top-0'>
         <div className='relative cursor-pointer'>
           <div>
             <FiHexagon className='text-golden text-[3rem] '/>
@@ -48,8 +48,8 @@ const Navbar = () => {
               toggle? <AiOutlineClose className='text-golden text-[2.5rem] duration-100 ' onClick={()=> setToggle((prev)=>(!prev))}/> : <HiMiniBars3BottomLeft className='text-golden text-[2.5rem] duration-100' onClick={()=> setToggle((prev)=>(!prev))}/>
             }
 
-          <div className={`${toggle ? 'flex' : 'hidden'} bg-[#131313]  absolute top- right-0  w-[75%] h-[100%] z-[100] nav-items`}>
-            <ul className='list-none text-center py-36 px-24 '>
+          <div className={`${toggle ? 'flex' : 'hidden'} bg-[#131313]  absolute top- right-0  w-[75%] h-[100%] z-[90] nav-items`}>
+            <ul className='list-none text-center py-36 px-24 bg-[#131313] z-40 h-[100vh]'>
               {navbar.map((nav, index) =>(
                 <li key={nav.id} className={`cursor-pointer text-[20px]  ${index === navbar.length -1 ?'mb-0':'mb-16'} text-white`} onClick={()=> setToggle((prev)=>(!prev))}>
                   <a href={`#${nav.id}`}>
