@@ -28,7 +28,9 @@ h3{
     text-indent: 120px;
     text-align: left;
 }
-
+.hmm{
+    backdrop-filter: blur(10px);
+}
 .work-img{
     transition: 500ms ease;
 }

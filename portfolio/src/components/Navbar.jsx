@@ -7,7 +7,7 @@ const Navbar = () => {
   const [toggle, setToggle] = useState(false)
   return (
     <>
-      <div className='items-center justify-between py-5 px-5 h-[80px] sm:flex hidden bg-[#131313] sticky top-0 left-0 z-[99999]'>
+      <div className='items-center justify-between py-5 px-5 h-[80px] sm:flex hidden hmm sticky top-0 left-0 z-[99999]'>
         <div className='relative cursor-pointer'>
           <div>
             <FiHexagon className='text-golden text-[3rem] '/>
@@ -33,7 +33,7 @@ const Navbar = () => {
         </div>
     </div>
 
-    <div className='items-center justify-between py-5 px-5 h-[80px] sm:hidden flex bg-[#131313]  border-none sticky top-0 z-[999]'>
+    <div className='items-center justify-between py-5 px-5 h-[80px] sm:hidden flex hmm  border-none sticky top-0 z-[999]'>
         <div className='relative cursor-pointer'>
           <div>
             <FiHexagon className='text-golden text-[3rem] '/>
