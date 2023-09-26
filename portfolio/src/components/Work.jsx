@@ -12,7 +12,7 @@ import { useInView } from 'react-intersection-observer';
 const Work = () => {
   const [ref, inView] = useInView({
     triggerOnce: true, // Trigger the animation only once
-    threshold: 0.2, // When 20% of the element is in view
+    threshold: 0.1, // When 20% of the element is in view
   });
 
   return (
