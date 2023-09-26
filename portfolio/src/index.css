@@ -42,6 +42,7 @@ h3{
     animation: fade 2s ease-in-out;
 }
 
+
 @keyframes fade {
     0%{
         transform: translateX(300px);
@@ -108,3 +109,69 @@ h3{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+
+
+.hero-h1{
+    opacity: 0;
+    transform: translateY(50px);
+    animation: heroh1 1s ease-in-out forwards;
+}
+@keyframes heroh1 {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .hero-date{
+    opacity: 0;
+    transform: translateY(50px);
+    animation: herodate 1.5s ease-in-out forwards;
+  }
+  @keyframes herodate {
+    0% {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .nav-fade{
+    opacity: 0;
+    transform: translateY(-50px);
+    animation: fadeFromTop 1.5s ease-in-out forwards;
+  }
+
+  @keyframes fadeFromTop {
+    0% {
+      opacity: 0;
+      transform: translateY(-50px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .p-fade{
+    opacity: 0;
+    transform: translateX(100px);
+    animation: pfade 4s ease-in-out forwards;
+  }
+  @keyframes pfade {
+    0% {
+      opacity: 0;
+      transform: translateX(100px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }

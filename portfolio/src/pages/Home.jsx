@@ -1,7 +1,6 @@
 import React from 'react'
 import {About,Navbar, Hero, Work, Writing,Tools, Experince,Contact,Footer} from '../components'
 
-
 const Home = () => {
   return (
     <div>
