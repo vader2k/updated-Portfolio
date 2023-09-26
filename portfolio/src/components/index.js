@@ -9,6 +9,7 @@ import Writing from './Writing'
 import Footer from './Footer'
 import Tools from './Tools'
 
+
 export {
-    About, Contact, Experince, Hero, Navbar, Work, TabsComponent,Tools, Writing, Footer
+    About, Contact, Experince, Hero, Navbar, Work, TabsComponent,Tools, Writing, Footer,
 }

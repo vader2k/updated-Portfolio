@@ -67,7 +67,7 @@ h3{
 }
 
 .works{
-    background:url(../src/assets/pillar.jpg);
+    background:url(../src/assets/backs.jpg);
     background-size: cover;
 }
 
@@ -101,4 +101,10 @@ h3{
     .pages{
         display: block;
     }
+}
+.image-section{
+    background-image: url(./assets/backs.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
