@@ -1,5 +1,6 @@
 import DateTimeDisplay from '../hooks/DateTimeDisplay'
 import star from '../assets/star.png'
+
 const Hero = () => {
   return (
     <div className="py-5 px-3 h-[100vh] sm:mt-40">
