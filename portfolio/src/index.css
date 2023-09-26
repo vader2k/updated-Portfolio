@@ -163,7 +163,7 @@ h3{
   .p-fade{
     opacity: 0;
     transform: translateX(100px);
-    animation: pfade 4s ease-in-out forwards;
+    animation: pfade 3s ease-in-out forwards;
   }
   @keyframes pfade {
     0% {
