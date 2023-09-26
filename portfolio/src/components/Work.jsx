@@ -6,15 +6,8 @@ import podcast from '../assets/podcast.png'
 import social from '../assets/social.png'
 import { Link} from 'react-router-dom'
 import star from '../assets/star.png'
-import {motion} from 'framer-motion'
-import { useInView } from 'react-intersection-observer';
 
 const Work = () => {
-  const [ref, inView] = useInView({
-    triggerOnce: true, // Trigger the animation only once
-    threshold: 0.1, // When 20% of the element is in view
-  });
-
   return (
     <div className='px-3 py-10' id='works'>
           <div className='flex items-center'>
@@ -22,12 +15,6 @@ const Work = () => {
         <h3 className='px-1'>Works</h3>
         </div>
 
-      <motion.div
-        ref={ref}      
-        initial={{ opacity: 0, y: 50 }} 
-        animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 50 }}
-        transition={{ duration: 1 }}
-      >
       <div className='flex flex-col gap-3 w-[85%] m-auto py-5 sm:hidden'>
         <Link to='health'>
         <div className='img-container relative inline-block'>
@@ -66,18 +53,11 @@ const Work = () => {
         </div>
         </Link>
       </div>
-      </motion.div>
 
 
 
 
 
-      <motion.div
-        ref={ref}      
-        initial={{ opacity: 0, y: 50 }} 
-        animate={{ opacity: inView ? 1 : 0, y: inView ? 0 : 50 }}
-        transition={{ duration: 1 }}
-      >
       <div className='sm:flex flex-col gap-3 w-[85%] m-auto py-5 hidden '>
         <div className='flex justify-between gap-3 items-center'>
           <div className='flex-1'> 
@@ -150,7 +130,6 @@ const Work = () => {
         </div>
 
       </div>
-      </motion.div>
     </div>
 
   )
