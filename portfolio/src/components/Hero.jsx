@@ -18,8 +18,8 @@ const Hero = () => {
         <h1 className='hero-h1'>DEVELOPER</h1>
       </div>
       <p className='flex flex-col py-20 sm:mt-10 sm:text-[1.6rem] font-Raleway line sm:ml-[100px] p-fade'>
-       I find my passion in creating digital experiences on the web. As a frontend developer with over two years of professional experience, coupled with my skills as a technical writer, I've been able to share my knowledge through articles geared towards beginnings. These articles are born from the challenges i've faced and the solutions i've discovered along the way.
-       My journey has taken me through diverse environments, including startups, large corporations, and online training institutions like <span className='text-golden'>Tethral Technologies</span>.Today, my primary focus revolves around creating accessible and innovaive solutions that solve real-world problems for a wide range of clients".
+        I am a passionate frontend web developer with a deep appreciation for creating immersive digital experiences.
+        I specialize in bringing ideas to life through elegant & responsive web solutions.
       </p>
 
     </div>

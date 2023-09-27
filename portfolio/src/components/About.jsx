@@ -29,7 +29,8 @@ const About = () => {
           >
           <p className='flex justify-end font-Abril text-golden pr-5 pb-5'>Odukwe Daniel</p>
           <p className='flex justify-end pl-10 pr-5 text-left line sm:text-[1.5rem]'>
-            I enjoy creating things that lives on the internet. I am a frontend web developer with 2yrs+ experience and also a technical writer. I have published few articles tendered towards beginers since my articles are based on problems i faced and how i overcame them. I have had the priviledge of working at Tethral technologies, a startup, a large corporation and an online training institution. My main focus these days are building more accessible & problem solving produts for a variety of clients.
+          I find my passion in creating digital experiences on the web. As a frontend developer with over two years of professional experience, coupled with my skills as a technical writer, I've been able to share my knowledge through articles geared towards beginnings. These articles are born from the challenges i've faced and the solutions i've discovered along the way.
+       My journey has taken me through diverse environments, including startups, large corporations, and online training institutions like <span className='text-golden'>Tethral Technologies</span>.Today, my primary focus revolves around creating accessible and innovaive solutions that solve real-world problems for a wide range of clients".
           </p>
         </motion.div>
       </div>
@@ -46,7 +47,8 @@ const About = () => {
         <h3 className=' flex justify-end pr-5 text-[5rem]'>HELLO. I AM DANIEL</h3>
         <p className='flex justify-end font-Abril text-golden pr-5 pb-5 text-[2rem]'>Odukwe Daniel</p>
         <p className='flex justify-end pl-10 pr-5 text-left line sm:text-[1.5rem]'>
-          I enjoy creating things that lives on the internet. I am a frontend web developer with 2yrs+ experience and also a technical writer. I have published few articles tendered towards beginers since my articles are based on problems i faced and how i overcame them. I have had the priviledge of working at Tethral technologies, a startup, a large corporation and an online training institution. My main focus these days are building more accessible & problem solving produts for a variety of clients.
+        I find my passion in creating digital experiences on the web. As a frontend developer with over two years of professional experience, coupled with my skills as a technical writer, I've been able to share my knowledge through articles geared towards beginnings. These articles are born from the challenges i've faced and the solutions i've discovered along the way.
+       My journey has taken me through diverse environments, including startups, large corporations, and online training institutions like <span className='text-golden'>Tethral Technologies</span>.Today, my primary focus revolves around creating accessible and innovaive solutions that solve real-world problems for a wide range of clients".
         </p>
       </div>
         <div className='flex-1'>
