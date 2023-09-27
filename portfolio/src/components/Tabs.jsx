@@ -46,7 +46,7 @@ const TabsComponent = () => {
                 <div className='flex items-start justify-center gap-5 py-5'>
                     <BiRightArrow className='text-golden text-[1rem]'/>
                     <p className='max-w-[300px] md:max-w-[1000px]'>
-                    Deliver high quality codes and mmanage companies social media activities to create awareness and improve brand marketing.
+                    Deliver high quality codes and manage companies social media activities to create awareness and improve brand marketing.
                     </p>
                 </div>
                 </motion.div>
