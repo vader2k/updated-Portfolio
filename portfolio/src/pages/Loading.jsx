@@ -22,12 +22,12 @@ const Loading = () => {
   },[])
     return (
     <div className='bg-[#131313]'>
-      <div className='flex items-center justify-center box-border w-full h-[100vh] px-5 para-holder'>
+      <div className='flex items-center justify-center box-border w-full h-[100vh] px-10 para-holder'>
         {
-          showParagraph1 && <p className='text-golden text-[1.5rem] italic font-Abril loading '>Through out the heavens and the earth</p>
+          showParagraph1 && <p className='text-golden text-[1.2rem] font-Abril loading '>Through out the heavens and the earth</p>
         }
         {
-          showParagraph2 && <p className='text-golden text-[1.5rem] italic font-Abril loading '>i alone am the honored one alone am the honored one</p>
+          showParagraph2 && <p className='text-golden text-[1.2rem] font-Abril loading '>I alone am the honored one </p>
         }
       </div>
     </div>
