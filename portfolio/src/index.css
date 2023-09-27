@@ -193,23 +193,17 @@ h3{
     }
   }
 
-  .breaking{
-    animation: break 2s ease-in-out forwards, shake 0.5s ease-in-out infinite alternate;
-  }
 
-  @keyframes break {
-    0%{
-      transform: scale(1);
-    }
-    100%{
-      transform: scale(0);
-    }
+.para-holder{
+  opacity: 0;
+  animation: fadeInOut 4s linear infinite;
+}
+
+@keyframes fadeInOut {
+  0%, 100%{
+    opacity: 0;
   }
-  @keyframes shake {
-    0%{
-      transform: translateX(0);
-    }
-    100%{
-      transform: translateX(5px);
-    }
+  25%, 75%{
+    opacity: 1;
   }
+}

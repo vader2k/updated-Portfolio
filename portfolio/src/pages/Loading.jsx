@@ -1,10 +1,34 @@
-import React from 'react'
+import React,{useState, useEffect} from 'react'
 
 const Loading = () => {
-  return (
+  const [showParagraph1, setShowparagraph1] = useState(true);
+  const [showParagraph2, setShowparagraph2] = useState(false);
+
+  useEffect(() => {
+    const timeout1 = setTimeout(()=> {
+      setShowparagraph1(false);
+      setShowparagraph2(true);
+    },2000)
+
+    const timeout2 = setTimeout(()=> {
+      setShowparagraph2(false);
+      setShowparagraph1(true);
+    },4000)
+
+    return() =>{
+      clearTimeout(timeout1);
+      clearTimeout(timeout2);
+    }
+  },[])
+    return (
     <div className='bg-[#131313]'>
-      <div className='flex items-center justify-center box-border w-full h-[100vh] px-5 loading '>
-        <p className='text-golden text-[1.5rem] italic font-Abril breaking'>Through out the heavens and the earth <br></br> i alone am the honored one</p>
+      <div className='flex items-center justify-center box-border w-full h-[100vh] px-5 para-holder'>
+        {
+          showParagraph1 && <p className='text-golden text-[1.5rem] italic font-Abril loading '>Through out the heavens and the earth</p>
+        }
+        {
+          showParagraph2 && <p className='text-golden text-[1.5rem] italic font-Abril loading '>i alone am the honored one alone am the honored one</p>
+        }
       </div>
     </div>
   )
