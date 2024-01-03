@@ -3,6 +3,7 @@ import bank from '../assets/hoobank.png'
 import jericho from '../assets/jericho.png'
 import podcast from '../assets/podcast.png'
 import medicare from '../assets/medicare.png'
+import anon from '../assets/anon.png'
 import { Link} from 'react-router-dom'
 import star from '../assets/star.png'
 
@@ -51,6 +52,13 @@ const Work = () => {
             <div className='color absolute top-0 left-0 w-[100%] h-[100%] bg-golden opacity-[0.5] work-img'></div>
         </div>
         </Link>
+
+        <Link to='anon'>
+        <div className='img-container relative inline-block'>
+            <img className='block w-[100%] h-auto' src={anon}/>
+            <div className='color absolute top-0 left-0 w-[100%] h-[100%] bg-golden opacity-[0.5] work-img'></div>
+        </div>
+        </Link>
       </div>
 
 
@@ -58,6 +66,7 @@ const Work = () => {
 
 
       <div className='sm:flex flex-col gap-3 w-[85%] m-auto py-5 hidden '>
+
         <div className='flex justify-between gap-3 items-center'>
           <div className='flex-1'> 
           <p className='text-[2rem] font-Abril'>HEALTHSTARKS</p>
@@ -101,7 +110,7 @@ const Work = () => {
 
         <div className='flex flex-row-reverse justify-between gap-3 items-center'>
           <div className='flex-1'>
-            <p className='text-[2rem] font-Abril'>MediCare</p>
+            <p className='text-[2rem] font-Abril'>MEDICARE</p>
           </div>
           <div className='flex-1'>
           <Link to='medicare'>
@@ -122,6 +131,20 @@ const Work = () => {
           <Link to='podcast'>
         < div className='img-container relative inline-block'>
           <img className='block w-[100%] h-auto' src={podcast}/>
+          <div className='color absolute top-0 left-0 w-[100%] h-[100%] bg-golden opacity-[0.7] work-img'></div>
+        </div>
+        </Link>
+          </div>
+        </div>
+
+        <div className='flex flex-row-reverse  justify-between gap-3 items-center'>
+          <div className='flex-1'>
+          <p className='text-[2rem] font-Abril'>ANON STORE</p>
+          </div>
+          <div className='flex-1'>
+          <Link to='anon'>
+        < div className='img-container relative inline-block'>
+          <img className='block w-[100%] h-auto' src={anon}/>
           <div className='color absolute top-0 left-0 w-[100%] h-[100%] bg-golden opacity-[0.7] work-img'></div>
         </div>
         </Link>

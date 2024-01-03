@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route} from "react-router-dom"
-import {Healthstarks, Hoobanks, Jericho, Podcast, Social, Home, MediCare} from './pages'
+import {Healthstarks, Hoobanks, Jericho, Podcast, AnonStore, Home, MediCare} from './pages'
 import Loading from './pages/Loading'
 import {useState, useEffect} from 'react'
 
@@ -25,7 +25,7 @@ const App = () => {
                 <Route path='hoobanks' element={<Hoobanks/>}/>
                 <Route path='jericho' element={<Jericho/>}/>
                 <Route path='podcast' element={<Podcast/>}/>
-                <Route path='social' element={<Social/>}/>
+                <Route path='anon' element={<AnonStore/>}/>
                 <Route path='medicare' element={<MediCare/>} />
               </Routes>
               </>
