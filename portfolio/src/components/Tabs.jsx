@@ -56,7 +56,7 @@ const TabsComponent = () => {
           <TabPanel  className=''>
           <div>
                 <p className='text-[18px]'>Frontend engineer <span className='text-golden'>@ Healthstarks</span></p>
-                <p className='text-[14px] text-gray-500'>september 2023 - present</p>
+                <p className='text-[14px] text-gray-500'>september 2023 - present(per-time)</p>
                 <motion.div
                         ref={ref}      
                         initial={{ opacity: 0, y: 50 }} 
@@ -84,7 +84,7 @@ const TabsComponent = () => {
           <TabPanel  className=''>
           <div>
                 <p className='text-[18px]'>Product Researcher <span className='text-golden'>@ Baicart</span></p>
-                <p className='text-[14px] text-gray-500'>september 2023 - present</p>
+                <p className='text-[14px] text-gray-500'>April 2023 - december 2023</p>
                 <motion.div
                     ref={ref}      
                     initial={{ opacity: 0, y: 50 }} 

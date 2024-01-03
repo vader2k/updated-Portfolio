@@ -1,4 +1,3 @@
-import React from 'react'
 import {TabsComponent} from './index'
 import star from '../assets/star.png'
 
