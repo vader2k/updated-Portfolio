@@ -1,9 +1,8 @@
-import React from 'react'
 import health from '../assets/health.png'
 import bank from '../assets/hoobank.png'
 import jericho from '../assets/jericho.png'
 import podcast from '../assets/podcast.png'
-import social from '../assets/social.png'
+import medicare from '../assets/medicare.png'
 import { Link} from 'react-router-dom'
 import star from '../assets/star.png'
 
@@ -40,7 +39,7 @@ const Work = () => {
 
         <Link to='social'>
         <div className='img-container relative inline-block'>
-            <img className='block w-[100%] h-auto' src={social}/>
+            <img className='block w-[100%] h-auto' src={medicare}/>
             <div className='color absolute top-0 left-0 w-[100%] h-[100%] bg-golden opacity-[0.5] work-img'>
             </div>
         </div>
@@ -102,12 +101,12 @@ const Work = () => {
 
         <div className='flex flex-row-reverse justify-between gap-3 items-center'>
           <div className='flex-1'>
-            <p className='text-[2rem] font-Abril'>VOUGHT SCOCIAL</p>
+            <p className='text-[2rem] font-Abril'>MediCare</p>
           </div>
           <div className='flex-1'>
-          <Link to='social'>
+          <Link to='medicare'>
           <div className='img-container relative inline-block'>
-          <img className='block w-[100%] h-auto' src={social}/>
+          <img className='block w-[100%] h-auto' src={medicare}/>
           <div className='color absolute top-0 left-0 w-[100%] h-[100%] bg-golden opacity-[0.7] work-img'></div>
         </div>
         </Link>
