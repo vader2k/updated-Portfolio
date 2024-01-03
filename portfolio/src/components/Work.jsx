@@ -38,7 +38,7 @@ const Work = () => {
         </div>
         </Link>
 
-        <Link to='social'>
+        <Link to='medicare'>
         <div className='img-container relative inline-block'>
             <img className='block w-[100%] h-auto' src={medicare}/>
             <div className='color absolute top-0 left-0 w-[100%] h-[100%] bg-golden opacity-[0.5] work-img'>
