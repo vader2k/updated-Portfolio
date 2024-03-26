@@ -1,4 +1,3 @@
-import React from 'react'
 import {LuGithub} from 'react-icons/lu'
 import {AiOutlineInstagram} from 'react-icons/ai'
 import {FiTwitter} from 'react-icons/fi'

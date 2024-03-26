@@ -4,6 +4,8 @@ import jericho from '../assets/jericho.png'
 import podcast from '../assets/podcast.png'
 import medicare from '../assets/medicare.png'
 import anon from '../assets/anon.png'
+import socialcheap from '../assets/socialcheap.png'
+import summarizer from '../assets/summarizer.png'
 import { Link} from 'react-router-dom'
 import star from '../assets/star.png'
 
@@ -56,6 +58,21 @@ const Work = () => {
         <Link to='anon'>
         <div className='img-container relative inline-block'>
             <img className='block w-[100%] h-auto' src={anon}/>
+            <div className='color absolute top-0 left-0 w-[100%] h-[100%] bg-golden opacity-[0.5] work-img'></div>
+        </div>
+        </Link>
+
+        
+        <Link to='summarizer'>
+        <div className='img-container relative inline-block'>
+            <img className='block w-[100%] h-auto' src={summarizer}/>
+            <div className='color absolute top-0 left-0 w-[100%] h-[100%] bg-golden opacity-[0.5] work-img'></div>
+        </div>
+        </Link>
+
+        <Link to='socialcheap'>
+        <div className='img-container relative inline-block'>
+            <img className='block w-[100%] h-auto' src={socialcheap}/>
             <div className='color absolute top-0 left-0 w-[100%] h-[100%] bg-golden opacity-[0.5] work-img'></div>
         </div>
         </Link>
@@ -145,6 +162,35 @@ const Work = () => {
           <Link to='anon'>
         < div className='img-container relative inline-block'>
           <img className='block w-[100%] h-auto' src={anon}/>
+          <div className='color absolute top-0 left-0 w-[100%] h-[100%] bg-golden opacity-[0.7] work-img'></div>
+        </div>
+        </Link>
+          </div>
+        </div>
+
+        <div className='flex  justify-between gap-3 items-center'>
+          <div className='flex-1'>
+          <p className='text-[2rem] font-Abril'>ARTICLE SUMMARIZER</p>
+          </div>
+          <div className='flex-1'>
+          <Link to='summarizer'>
+        < div className='img-container relative inline-block'>
+          <img className='block w-[100%] h-auto' src={summarizer}/>
+          <div className='color absolute top-0 left-0 w-[100%] h-[100%] bg-golden opacity-[0.7] work-img'></div>
+        </div>
+        </Link>
+          </div>
+        </div>
+
+
+        <div className='flex flex-row-reverse  justify-between gap-3 items-center'>
+          <div className='flex-1'>
+          <p className='text-[2rem] font-Abril'>SOCIAL CHEAP</p>
+          </div>
+          <div className='flex-1'>
+          <Link to='socialcheap'>
+        < div className='img-container relative inline-block'>
+          <img className='block w-[100%] h-auto' src={socialcheap}/>
           <div className='color absolute top-0 left-0 w-[100%] h-[100%] bg-golden opacity-[0.7] work-img'></div>
         </div>
         </Link>

@@ -5,7 +5,9 @@ import Podcast from './Podcast';
 import AnonStore from './AnonStore';
 import Home from "./Home";
 import MediCare from "./MediCare";
+import SocialCheap from "./SocialCheap";
+import Summarizer from "./Summarizer";
 
 export{
-    Healthstarks, Hoobanks, Podcast, AnonStore, Jericho, Home , MediCare
+    Healthstarks, Hoobanks, Podcast, AnonStore, Jericho, Home , MediCare, Summarizer, SocialCheap
 }
